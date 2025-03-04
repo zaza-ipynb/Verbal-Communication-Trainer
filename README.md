@@ -82,11 +82,15 @@ Run the application:
    ```bash
    python verbal_trainer.py --model 1  # Choose 1 for DeepSeek or 2 for Falcon
    ```
-If running `verbal_trainer.py` and the model is not yet downloaded locally, follow these steps:
+If running `verbal_trainer.py` and the model is not yet downloaded locally it will automatically download the model first if its open source
+follow these steps:
 1. Sign up on [Hugging Face](https://huggingface.co/).
 2. Go to **Settings > Access Tokens**.
 3. Click **New Token**, name it (e.g., "mistral-access"), and select **Read** permissions.
 4. Click **Generate Token** and copy the token.
+5. authenticate your huggingface account in terminal ```huggingface-cli login``` and enter the token
+6. 
+Otherwise if you are using other open source model like Mistral that requires approval, you need to wait first
 
 we also had done checking the core function/logic which shows everything is good to use
 ``` 
