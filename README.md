@@ -89,7 +89,7 @@ follow these steps:
 3. Click **New Token**, name it (e.g., "mistral-access"), and select **Read** permissions.
 4. Click **Generate Token** and copy the token.
 5. authenticate your huggingface account in terminal ```huggingface-cli login``` and enter the token
-6. 
+
 Otherwise if you are using other open source model like Mistral that requires approval, you need to wait first
 
 we also had done checking the core function/logic which shows everything is good to use
