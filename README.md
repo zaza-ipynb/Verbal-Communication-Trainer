@@ -1,6 +1,4 @@
-# Verbal-Communication-Trainer
-
-# Setting Up the Environment 🚀
+# Verbal-Communication-Trainer - Setting Up the Environment 🚀
 
 ## Prerequisites
 Before running the project, ensure you have the following installed:
