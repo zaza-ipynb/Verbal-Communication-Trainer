@@ -1,0 +1,7 @@
+model_mapping:
+  1: "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
+  2: "tiiuae/falcon-7b-instruct"
+prompt_module:
+  impromptu: "Evaluate a user's response to an impromptu speaking topic. Assess structure, clarity, fluency, and engagement. Provide feedback on strengths and suggest improvements for a more organized and confident delivery"
+  storytelling: "Evaluate a user-submitted story for narrative quality and engagement. Assess plot, character development, emotional impact, writing style, and theme. Provide constructive feedback on strengths and areas for improvement."
+  conflict_resolution: "Evaluate a user's response to a conflict resolution scenario. Assess tone, diplomacy, empathy, and effectiveness. Provide constructive feedback on how to improve communication for a more positive outcome."
