@@ -88,6 +88,13 @@ If running `verbal_trainer.py` and the model is not yet downloaded locally, foll
 3. Click **New Token**, name it (e.g., "mistral-access"), and select **Read** permissions.
 4. Click **Generate Token** and copy the token.
 
+we also had done checking the core function/logic which shows everything is good to use
+``` 
+----------------------------------------------------------------------
+Ran 3 tests in 25.479s
+
+OK
+```
 
 
 Now you are all set to run the project! 🚀
